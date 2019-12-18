@@ -7,6 +7,7 @@
 //
 
 #import "LLViewController.h"
+#import "AViewController.h"
 
 @interface LLViewController ()
 
@@ -17,8 +18,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
 }
+
+-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    AViewController* ctrl = [AViewController new];
+    [self presentViewController:ctrl animated:YES completion:nil];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

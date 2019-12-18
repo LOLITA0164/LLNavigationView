@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C71739FD23AA03760002EEBD /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71739FC23AA03760002EEBD /* AViewController.m */; };
 		FE1D53BED726756C049076FE /* Pods_LLNavigationView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE882F1F9FAE65D6B2F6494 /* Pods_LLNavigationView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +41,7 @@
 		1CE882F1F9FAE65D6B2F6494 /* Pods_LLNavigationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLNavigationView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3C7375E75ED39B95ADE198 /* Pods-LLNavigationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNavigationView_Tests.release.xcconfig"; path = "Target Support Files/Pods-LLNavigationView_Tests/Pods-LLNavigationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B1C2D68237BEAB8494247A1 /* Pods-LLNavigationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNavigationView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LLNavigationView_Tests/Pods-LLNavigationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		47FC12646A7C80406D4EB843 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		47FC12646A7C80406D4EB843 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LLNavigationView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLNavigationView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +63,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91248A42A39A1719F4D05405 /* LLNavigationView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LLNavigationView.podspec; path = ../LLNavigationView.podspec; sourceTree = "<group>"; };
+		91248A42A39A1719F4D05405 /* LLNavigationView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLNavigationView.podspec; path = ../LLNavigationView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A96B9E9B32DA544D9EBEC2FE /* Pods_LLNavigationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLNavigationView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABE97BD7C2AF6764CCF1CD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AABE97BD7C2AF6764CCF1CD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C71739FB23AA03760002EEBD /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		C71739FC23AA03760002EEBD /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		CE669BBE908F14F094E84ADD /* Pods-LLNavigationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNavigationView_Example.debug.xcconfig"; path = "Target Support Files/Pods-LLNavigationView_Example/Pods-LLNavigationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F1096061FFA5B2B1D84A3085 /* Pods-LLNavigationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNavigationView_Example.release.xcconfig"; path = "Target Support Files/Pods-LLNavigationView_Example/Pods-LLNavigationView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LLViewController.h */,
 				6003F5A6195388D20070C39A /* LLViewController.m */,
+				C71739FB23AA03760002EEBD /* AViewController.h */,
+				C71739FC23AA03760002EEBD /* AViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				3B1C2D68237BEAB8494247A1 /* Pods-LLNavigationView_Tests.debug.xcconfig */,
 				1F3C7375E75ED39B95ADE198 /* Pods-LLNavigationView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				F062B8F7D3FCD9EB997010BF /* [CP] Embed Pods Frameworks */,
+				88E62F2B4B4740D74A46B470 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -339,7 +344,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F062B8F7D3FCD9EB997010BF /* [CP] Embed Pods Frameworks */ = {
+		88E62F2B4B4740D74A46B470 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,10 +352,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LLNavigationView_Example/Pods-LLNavigationView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LLNavigationView/LLNavigationView.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLNavigationView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71739FD23AA03760002EEBD /* AViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

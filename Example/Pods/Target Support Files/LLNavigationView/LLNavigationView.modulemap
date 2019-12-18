@@ -1,0 +1,6 @@
+framework module LLNavigationView {
+  umbrella header "LLNavigationView-umbrella.h"
+
+  export *
+  module * { export * }
+}

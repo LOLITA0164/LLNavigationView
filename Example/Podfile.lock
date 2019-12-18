@@ -1,0 +1,23 @@
+PODS:
+  - LLNavigationView (0.1.0):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - LLNavigationView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  LLNavigationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLNavigationView: af8e8d0df095af35f59a85a4ed6d390771b233b8
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 523a515885d6d8f883e111ffb1c0ff67936f9e35
+
+COCOAPODS: 1.7.2
